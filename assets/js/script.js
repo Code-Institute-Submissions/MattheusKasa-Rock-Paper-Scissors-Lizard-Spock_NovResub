@@ -5,6 +5,8 @@ let possibleChoices = document.querySelectorAll ("button")
 let userChoice
 let computerChoice
 let result
+let computerScoreSpan = document.querySelector('[data-computer-score]')
+let userScoreSpan = document.querySelector('[data-user-score]')
 
     possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
     userChoice = e.target.id
@@ -103,5 +105,9 @@ function getResult() {
         result = 'you loose!'
     }
     resultDisplay.innerHTML = result
+
 }
 
+function incrementScore(scoreSpan) {
+    scoreSpan.innerText = parseInt(scoreSpan.inner) + 1
+}
