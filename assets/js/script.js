@@ -5,8 +5,8 @@ let possibleChoices = document.querySelectorAll ("button")
 let userChoice
 let computerChoice
 let result
-let myScore = 0
-let computerScore = 0
+var userScore = 0
+var computerScore = 0
 
     
 
@@ -41,106 +41,80 @@ function generateComputerChoice() {
 }
 
 function getResult() {
+
     if (computerChoice === userChoice) {
         result = 'its a draw!'
-    } 
-    if (computerChoice === 'rock' && userChoice === "paper") {
-        result = 'you win!'
-        incrementScore(); 
-
     }
-    if (computerChoice === 'rock' && userChoice === "scissors") {
-        result = 'you loose!'
+    else if(computerChoice === 'rock') {
+        if(userChoice ==='paper') {
+            playerWins();
+            
+        } else if (userChoice === 'spock') {
+            playerWins();
+             
+        } else {
+            computerWins();
+        }
     }
-    if (computerChoice === 'rock' && userChoice === "lizard") {
-        result = 'you loose!'
+    else if(computerChoice === 'paper') {
+        if(userChoice ==='scissors') {
+            playerWins();
+            
+        } else if (userChoice === 'lizard') {
+            playerWins();
+             
+        } else {
+            computerWins();
+        }
     }
-    if (computerChoice === 'rock' && userChoice === "spock") {
-        result = 'you win!'
-        incrementScore(); 
-
+    else if(computerChoice === 'scissors') {
+        if(userChoice ==='rock') {
+            playerWins();
+            
+        } else if (userChoice === 'spock') {
+            playerWins();
+            
+        } else {
+            computerWins();
+        }
     }
-
-    if (computerChoice === 'paper' && userChoice === "scissors") {
-        result = 'you win!'
-        incrementScore(); 
-
+    else if(computerChoice === 'lizard') {
+        if(userChoice ==='scissors') {
+            playerWins();
+            
+        } else if (userChoice === 'rock') {
+            playerWins();
+           
+        } else {
+            computerWins();
+        }
     }
-    if (computerChoice === 'paper' && userChoice === "rock") {
-        result = 'you loose!'
+    else if(computerChoice === 'spock') {
+        if(userChoice ==='paper') {
+            playerWins();
+            
+        } else if (userChoice === 'lizard') {
+            playerWins();
+          
+        } else {
+            computerWins();
+            
+        }
     }
-    if (computerChoice === 'paper' && userChoice === "lizard") {
-        result = 'you win!'
-        incrementScore();
-
-    }
-    if (computerChoice === 'paper' && userChoice === "spock") {
-        result = 'you loose!'
-    }
-
-    if (computerChoice === 'scissors' && userChoice === "rock") {
-        result = 'you win!'
-        incrementScore(); 
-
-    }
-    if (computerChoice === 'scissors' && userChoice === "paper") {
-        result = 'you loose!'
-    }
-    if (computerChoice === 'scissors' && userChoice === "lizard") {
-        result = 'you loose!'
-    }
-    if (computerChoice === 'scissors' && userChoice === "spock") {
-        result = 'you win!'
-        incrementScore(); 
-    }
-
-    if (computerChoice === 'lizard' && userChoice === "rock") {
-        result = 'you win!'
-        incrementScore(); 
-
-    }
-    if (computerChoice === 'lizard' && userChoice === "paper") {
-        result = 'you win!'
-        incrementScore(); 
-
-    }
-    if (computerChoice === 'lizard' && userChoice === "scissors") {
-        result = 'you loose!'
-    }
-    if (computerChoice === 'lizard' && userChoice === "spock") {
-        result = 'you loose!'
-    }
-
-    if (computerChoice === 'spock' && userChoice === "rock") {
-        result = 'you win!'
-        incrementScore();
-
-    }
-    if (computerChoice === 'spock' && userChoice === "paper") {
-        result = 'you loose!'
-    }
-    if (computerChoice === 'spock' && userChoice === "scissors") {
-        result = 'you win!'
-        incrementScore(); 
-
-    }
-    if (computerChoice === 'spock' && userChoice === "lizard") {
-        result = 'you loose!'
-    }
+    
     resultDisplay.innerHTML = result
 
 }
 
-
-
-function incrementScore() {
-    
-    let myScore = parseInt(document.getElementById("result-score-user").innerText);
-    myScore +=1;
-    
+function playerWins() {
+    result = 'user wins!';
+    document.getElementById("result-score-user").innerText = ++userScore;
+    userScore.textContent = userScore;
 }
 
-function incrementWrongAnswer() {
-    let oldScore = parseInt(document.getElementById("result-score-computer").innerText);
-    document.getElementById("result-score-computer").innerText = ++oldScore;
+function computerWins() {
+    result = 'computer wins!';
+    document.getElementById("result-score-computer").innerText = ++computerScore;
+    computerScore.textContent = computerScore;
 }
+
