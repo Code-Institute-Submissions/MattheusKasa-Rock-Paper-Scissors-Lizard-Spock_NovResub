@@ -5,9 +5,10 @@ let possibleChoices = document.querySelectorAll ("button")
 let userChoice
 let computerChoice
 let result
-let computerScoreSpan = document.querySelector('[data-computer-score]')
-let userScoreSpan = document.querySelector('[data-user-score]')
+let myScore = 0
+let computerScore = 0
 
+    
 
 
     possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
@@ -16,6 +17,7 @@ let userScoreSpan = document.querySelector('[data-user-score]')
     generateComputerChoice()
     getResult()
 }))
+
 
 function generateComputerChoice() {
     const randomNumber = Math.floor(Math.random() * possibleChoices.length) + 1
@@ -44,6 +46,8 @@ function getResult() {
     } 
     if (computerChoice === 'rock' && userChoice === "paper") {
         result = 'you win!'
+        incrementScore(); 
+
     }
     if (computerChoice === 'rock' && userChoice === "scissors") {
         result = 'you loose!'
@@ -53,16 +57,22 @@ function getResult() {
     }
     if (computerChoice === 'rock' && userChoice === "spock") {
         result = 'you win!'
+        incrementScore(); 
+
     }
 
     if (computerChoice === 'paper' && userChoice === "scissors") {
         result = 'you win!'
+        incrementScore(); 
+
     }
     if (computerChoice === 'paper' && userChoice === "rock") {
         result = 'you loose!'
     }
     if (computerChoice === 'paper' && userChoice === "lizard") {
         result = 'you win!'
+        incrementScore();
+
     }
     if (computerChoice === 'paper' && userChoice === "spock") {
         result = 'you loose!'
@@ -70,6 +80,8 @@ function getResult() {
 
     if (computerChoice === 'scissors' && userChoice === "rock") {
         result = 'you win!'
+        incrementScore(); 
+
     }
     if (computerChoice === 'scissors' && userChoice === "paper") {
         result = 'you loose!'
@@ -79,13 +91,18 @@ function getResult() {
     }
     if (computerChoice === 'scissors' && userChoice === "spock") {
         result = 'you win!'
+        incrementScore(); 
     }
 
     if (computerChoice === 'lizard' && userChoice === "rock") {
         result = 'you win!'
+        incrementScore(); 
+
     }
     if (computerChoice === 'lizard' && userChoice === "paper") {
         result = 'you win!'
+        incrementScore(); 
+
     }
     if (computerChoice === 'lizard' && userChoice === "scissors") {
         result = 'you loose!'
@@ -96,12 +113,16 @@ function getResult() {
 
     if (computerChoice === 'spock' && userChoice === "rock") {
         result = 'you win!'
+        incrementScore();
+
     }
     if (computerChoice === 'spock' && userChoice === "paper") {
         result = 'you loose!'
     }
     if (computerChoice === 'spock' && userChoice === "scissors") {
         result = 'you win!'
+        incrementScore(); 
+
     }
     if (computerChoice === 'spock' && userChoice === "lizard") {
         result = 'you loose!'
@@ -111,10 +132,12 @@ function getResult() {
 }
 
 
+
 function incrementScore() {
     
-    let oldScore = parseInt/document.getElementById("result-score-user").innerText;
-    document.getElementById("result-score-user").innerText = ++oldScore;
+    let myScore = parseInt(document.getElementById("result-score-user").innerText);
+    myScore +=1;
+    
 }
 
 function incrementWrongAnswer() {
