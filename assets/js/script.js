@@ -8,6 +8,8 @@ let result
 let computerScoreSpan = document.querySelector('[data-computer-score]')
 let userScoreSpan = document.querySelector('[data-user-score]')
 
+
+
     possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
     userChoice = e.target.id
     userChoiceDisplay.innerHTML = userChoice
@@ -108,6 +110,14 @@ function getResult() {
 
 }
 
-function incrementScore(scoreSpan) {
-    scoreSpan.innerText = parseInt(scoreSpan.inner) + 1
+
+function incrementScore() {
+    
+    let oldScore = parseInt/document.getElementById("result-score-user").innerText;
+    document.getElementById("result-score-user").innerText = ++oldScore;
+}
+
+function incrementWrongAnswer() {
+    let oldScore = parseInt(document.getElementById("result-score-computer").innerText);
+    document.getElementById("result-score-computer").innerText = ++oldScore;
 }
