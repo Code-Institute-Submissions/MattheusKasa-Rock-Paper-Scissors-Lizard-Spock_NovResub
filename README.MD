@@ -7,9 +7,10 @@ The live website can be found here; [Rock,paper,scissors,lizard,spock]( https://
 ![Site on different screens](md-images/different-responses.png)
 
 ## Table of Contents
-1. [**Features**](#features)
-    - [**Choices**](#choices)
-    - [**Results**](#result)
+1. ## [**Features**](#features)
+    - [**Explanation of the game**](#gameimg)
+    - [**Computer Choice**](#choices)
+    - [**User Choice**](#choices)
     - [**Results**](#result)
     - [**Typography/Color Scheme**](#typographycolor-scheme)
     - [**Wireframes**](#wireframes)
