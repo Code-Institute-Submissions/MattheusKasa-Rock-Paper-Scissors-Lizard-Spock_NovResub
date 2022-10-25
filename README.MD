@@ -4,18 +4,16 @@
 
 The live website can be found here; [Rock,paper,scissors,lizard,spock]( https://mattheuskasa.github.io/Rock-Paper-Scissors-Lizard-Spock//)
 
-![Site on different screens](md-images/different-responses.png)
 
 ## Table of Contents
 1. ## [**Features**](#features)
     - [**Explanation of the game**](#gameimg)
-    - [**Computer Choice**](#choices)
-    - [**User Choice**](#choices)
+    - [**Choices**](#choices)
     - [**Results**](#result)
-    - [**Typography/Color Scheme**](#typographycolor-scheme)
-    - [**Wireframes**](#wireframes)
+    - [**Options**](#options)
+    - [**Scoreboard**](#scoreboard)
 
-2. [**Choices**](#choices)
+2. [**Testing**](#testing)
     - [**Existing Features**](#existing-features)
     - [**Features Left to Implement**](#features-not-yet-implemented)
 
@@ -29,6 +27,13 @@ The live website can be found here; [Rock,paper,scissors,lizard,spock]( https://
 
 6. [**Credits**](#credits)
 
+
+# Mockup
+
+![Site on different screens](md-images/different-responses.png)
+
+---
+<p>&nbsp;</p>
 
 # Features
 
@@ -64,8 +69,6 @@ The live website can be found here; [Rock,paper,scissors,lizard,spock]( https://
 ---
 
 # Testing
-- ### Tested the website in Chrome and Samsung internet browser for both mobile and desktop.
-- ### Tested and confirmed that the website is responsive on all screen sizes using dev tools.
 
 
 # Validator Testing
@@ -80,6 +83,8 @@ The live website can be found here; [Rock,paper,scissors,lizard,spock]( https://
 
 - ## Accessibility
   - ### I confirmed that the colours have enough contrast and fonts chosen are easy to read, and all links, icons and images have descriptive text for screen readers running it through Lighthouse in Chrome DevTools.
+  - ### Tested the website in Chrome and Samsung internet browser for both mobile and desktop.
+  - ### Tested and confirmed that the website is responsive on all screen sizes using dev tools.
 
 ### Desktop
 
