@@ -6,6 +6,28 @@ The live website can be found here; [Rock,paper,scissors,lizard,spock]( https://
 
 ![Site on different screens](md-images/different-responses.png)
 
+## Table of Contents
+1. [**Features**](#features)
+    - [**Choices**](#choices)
+    - [**Results**](#result)
+    - [**Results**](#result)
+    - [**Typography/Color Scheme**](#typographycolor-scheme)
+    - [**Wireframes**](#wireframes)
+
+2. [**Choices**](#choices)
+    - [**Existing Features**](#existing-features)
+    - [**Features Left to Implement**](#features-not-yet-implemented)
+
+3. [**Used Programs**](#used-programs)
+    - [**Backend**](#backend)
+    - [**Frontend**](#frontend)
+
+4. [**Compatability**](#compatibility)
+
+5. [**Deployment**](#deployment)
+
+6. [**Credits**](#credits)
+
 
 # Features
 

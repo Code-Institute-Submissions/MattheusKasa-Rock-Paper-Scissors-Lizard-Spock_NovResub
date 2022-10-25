@@ -98,12 +98,10 @@ function getResult() {
           
         } else {
             computerWins();
-            
         }
     }
     
     resultDisplay.innerHTML = result;
-
 }
 
 function playerWins() {
@@ -117,4 +115,3 @@ function computerWins() {
     document.getElementById("result-score-computer").innerText = ++computerScore;
     computerScore.textContent = computerScore;
 }
-
