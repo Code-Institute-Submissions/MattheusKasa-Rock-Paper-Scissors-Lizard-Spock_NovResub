@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     background-color: lightgray;
     text-align: center;
@@ -50,22 +49,17 @@ button:hover {
 
 @media screen and (max-width: 1440px) {
 
+    #gameimage {
+        max-width: 40%;
+        height: auto;
+        float: none; 
+    }
 
-#gameimage {
-    max-width: 40%;
-    height: auto;
-    float: none;
-    
+    button {
+        font-size: 70%;
+        margin: 1.5rem;
+    }
 }
-
-button {
-    font-size: 70%;
-    margin: 1.5rem;
-}
-
-}
-
-
 
 @media screen and (max-width: 950px) {
 
@@ -93,6 +87,4 @@ button {
         text-align: center;
         font-size: 50%;
     }
-
 }
-
