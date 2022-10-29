@@ -1,6 +1,9 @@
-# Rock Paper Scissors Lizard Spock
+# [Rock Paper Scissors Lizard Spock](https://mattheuskasa.github.io/Rock-Paper-Scissors-Lizard-Spock//)
 
 ## Rock Paper Scissors Lizard Spock. Is website where you can play a lovely game of advanced rock, paper, scissors agains the computer, and hopefully win!
+
+![Site on different screens](md-images/different-responses.png)
+
 
 ### The live website can be found here; [Rock,Paper,Scissors,Lizard,Spock]( https://mattheuskasa.github.io/Rock-Paper-Scissors-Lizard-Spock//)
 
@@ -23,18 +26,10 @@
     - [**Solved**](#solved)
     - [**Unsolved**](#unsolved)
 
-4. ## [**Compatability**](#compatibility)
+4. ## [**Deployment**](#deployment-1)
 
-5. ## [**Deployment**](#deployment)
+5. ## [**Credits**](#credits-1)
 
-6. ## [**Credits**](#credits)
-
-
-# Mockup
-
-![Site on different screens](md-images/different-responses.png)
-
----
 <p>&nbsp;</p>
 
 # Features
@@ -71,9 +66,8 @@
 ![Scoreboard](md-images/Scoreboard.png)
 
 
+[Back to top](#)
 
-
----
 
 <p>&nbsp;</p>
 
@@ -106,22 +100,25 @@
 
   ![lighthouse mobile score](md-images/lighthouse-mobile.png)
 
+[Back to top](#)
+<p>&nbsp;</p>
 
   # Bugs and Errors
 
-  - ## Solved
+- ## Solved
 
   - ### When adapting the site for mobile i found it to be a better experience to remove to image completely.
 
-  - ## Unsolved
+- ## Unsolved
 
   - ### No unsolved bugs.
+[Back to top](#)
+<p>&nbsp;</p>
 
----
 
-# Deployment
+  # Deployment
 
- ## The site was deployed to GitHub Pages with the following steps:
+  ## The site was deployed to GitHub Pages with the following steps:
   - ## Click on the **Settings** tab in the Github repository for the project.
   - ## Click on the **Pages** section of the menu on the left.
   - ## Under **Source**, select **Branch:Main**, and click **Save**.
@@ -129,7 +126,7 @@
 
 
 ## The live website can be found here: [Rock,Paper,Scissors,Lizard,Spock]( https://mattheuskasa.github.io/Rock-Paper-Scissors-Lizard-Spock//)
-
+[Back to top](#)
 <p>&nbsp;</p>
 
  # Credits
@@ -138,3 +135,4 @@
  - ## Icons from [Font Awesome.](https://fontawesome.com/)
  - ## Images created and resized using [Microsoft Paint.](https://sv.wikipedia.org/wiki/Microsoft_Paint)
  - ## Images found at [Pexels](https://www.pexels.com/)
+ [Back to top](#)
