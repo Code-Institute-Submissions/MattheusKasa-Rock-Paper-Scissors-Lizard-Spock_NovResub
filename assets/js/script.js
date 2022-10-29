@@ -15,6 +15,7 @@ generateComputerChoice();
 getResult();
 }));
 
+/** functions for the computers choices **/
 
 function generateComputerChoice() {
     const randomNumber = Math.floor(Math.random() * possibleChoices.length) + 1;
@@ -37,12 +38,15 @@ function generateComputerChoice() {
     computerChoiceDisplay.innerHTML = computerChoice;
 }
 
+/** function comparing the users choice and giving a message depending if its a win or a loss **/
+
 function getResult() {
 
     if (computerChoice === userChoice) {
         result = 'its a draw!';
     }
     else if(computerChoice === 'rock') {
+
         if(userChoice ==='paper') {
             playerWins();
             
@@ -54,6 +58,7 @@ function getResult() {
         }
     }
     else if(computerChoice === 'paper') {
+
         if(userChoice ==='scissors') {
             playerWins();
             
@@ -65,6 +70,7 @@ function getResult() {
         }
     }
     else if(computerChoice === 'scissors') {
+
         if(userChoice ==='rock') {
             playerWins();
             
@@ -76,6 +82,7 @@ function getResult() {
         }
     }
     else if(computerChoice === 'lizard') {
+        
         if(userChoice ==='scissors') {
             playerWins();
             
@@ -87,6 +94,7 @@ function getResult() {
         }
     }
     else if(computerChoice === 'spock') {
+
         if(userChoice ==='paper') {
             playerWins();
             
@@ -98,14 +106,20 @@ function getResult() {
         }
     }
     
+/** Displays results **/
+
     resultDisplay.innerHTML = result;
 }
+
+/** Function showing if the users choice wins over the computers **/
 
 function playerWins() {
     result = 'You win :)';
     document.getElementById("result-score-user").innerText = ++userScore;
     userScore.textContent = userScore;
 }
+
+/** Function showing if the users choice does not win over the computers **/
 
 function computerWins() {
     result = 'Computer wins :(';
