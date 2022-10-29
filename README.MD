@@ -1,6 +1,6 @@
 # [Rock Paper Scissors Lizard Spock](https://mattheuskasa.github.io/Rock-Paper-Scissors-Lizard-Spock//)
 
-## Rock Paper Scissors Lizard Spock. Is website where you can play a lovely game of advanced rock, paper, scissors agains the computer, and hopefully win!
+## Rock Paper Scissors Lizard Spock. Is a website where you can play a lovely game of advanced rock, paper, scissors agains the computer, and hopefully win!
 
 ![Site on different screens](md-images/different-responses.png)
 
