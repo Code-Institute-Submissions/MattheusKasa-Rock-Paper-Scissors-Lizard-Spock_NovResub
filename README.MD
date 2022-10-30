@@ -109,7 +109,7 @@
 - ## Solved
 
   - When adapting the site for mobile i found it to be a better experience to remove to image completely.
-
+  - When running the website on a tablet there was alot of whitespace down at the bottom. I fixed this by changing the media queries and including the image when viewing on tablet.
 - ## Unsolved
 
   - No unsolved bugs
