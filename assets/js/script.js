@@ -16,7 +16,6 @@ getResult();
 }));
 
 /** functions for the computers choices **/
-
 function generateComputerChoice() {
     const randomNumber = Math.floor(Math.random() * possibleChoices.length) + 1;
     
@@ -39,7 +38,6 @@ function generateComputerChoice() {
 }
 
 /** function comparing the users choice and giving a message depending if its a win or a loss **/
-
 function getResult() {
 
     if (computerChoice === userChoice) {
@@ -107,12 +105,10 @@ function getResult() {
     }
     
 /** Displays results **/
-
     resultDisplay.innerHTML = result;
 }
 
 /** Function showing if the users choice wins over the computers **/
-
 function playerWins() {
     result = 'You win :)';
     document.getElementById("result-score-user").innerText = ++userScore;
@@ -120,7 +116,6 @@ function playerWins() {
 }
 
 /** Function showing if the users choice does not win over the computers **/
-
 function computerWins() {
     result = 'Computer wins :(';
     document.getElementById("result-score-computer").innerText = ++computerScore;
