@@ -14,14 +14,12 @@ body {
 }
 
 /** Images **/
-
 img {
     float: left;
     position: relative;
 }
 
 /** Headings **/
-
 h1 {
     font-size: 5rem;
     text-decoration: none;
@@ -33,7 +31,6 @@ h2 {
 }
 
 /** Buttons **/
-
 button {
     margin: 2.5rem;
     font-size: 3rem;
@@ -47,7 +44,6 @@ button:hover {
 }
 
 /** Results **/
-
 .results {
     margin: 3.5rem;
     font-size: 4rem;
@@ -55,7 +51,6 @@ button:hover {
 }
 
 /** Media queries to make the content fit on devices with a maximum width of 1440 pixels **/
-
 @media screen and (max-width: 1440px) {
 
     #gameimage {
@@ -75,7 +70,6 @@ button:hover {
 }
 
 /** Media queries to make the content fit on devices with a maximum width of 950 pixels **/
-
 @media screen and (max-width: 950px) {
 
     img {
