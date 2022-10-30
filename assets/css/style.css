@@ -70,7 +70,7 @@ button:hover {
 }
 
 /** Media queries to make the content fit on devices with a maximum width of 950 pixels **/
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 700px) {
 
     img {
         display: none;
