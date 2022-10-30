@@ -92,11 +92,11 @@
   - Tested the website in Chrome and Samsung internet browser for both mobile and desktop.
   - Tested and confirmed that the website is responsive on all screen sizes using dev tools.
 
-### Desktop
+## Desktop
 
   ![lighouse desktop score](md-images/lighthouse-desktop.png)
 
-### Mobile
+## Mobile
 
   ![lighthouse mobile score](md-images/lighthouse-mobile.png)
 
@@ -111,7 +111,8 @@
 
 - ## Unsolved
 
-  - ### No unsolved bugs.
+  - Due to not having enough time, i wasnt able to improve the tablet view so that not as much of the screen is taken up by whitespace.
+  
 [Back to top](#)
 <p>&nbsp;</p>
 
@@ -119,13 +120,14 @@
   # Deployment
 
   ## The site was deployed to GitHub Pages with the following steps:
+
   - Click on the **Settings** tab in the Github repository for the project.
   - Click on the **Pages** section of the menu on the left.
   - Under **Source**, select **Branch:Main**, and click **Save**.
   - The site should now be deployed succesfully and after a few minutes the link can be clicked and lead you to the website.
 
 
-## The live website can be found here: [Rock,Paper,Scissors,Lizard,Spock]( https://mattheuskasa.github.io/Rock-Paper-Scissors-Lizard-Spock//)
+### The live website can be found here: [Rock,Paper,Scissors,Lizard,Spock]( https://mattheuskasa.github.io/Rock-Paper-Scissors-Lizard-Spock//)
 [Back to top](#)
 <p>&nbsp;</p>
 
