@@ -36,32 +36,32 @@
 
 
 ## Header
-- ### The Header - The name of the game, quick and easy to instantly understand whats to come.
+- The Header - The name of the game, quick and easy to instantly understand whats to come.
 
 ![Header](md-images/RPSLS-Header.png)
 
 ## Explanation of the game
-- ### An image explaining how to play the game.
+- An image explaining how to play the game.
 
 ![Image](md-images/325665%20copy.png)
 
 ## Choices
-- ### Computer/User choices - Shows choice of both the computer and the user.
+- Computer/User choices - Shows choice of both the computer and the user.
 
 ![Choices](md-images/Computer-and-user-choice.png)
 
 ## Result
-- ### The Result - Lets you know if it was a draw, you lost, or you won!
+- The Result - Lets you know if it was a draw, you lost, or you won!
 
 ![Result](md-images/Result.png)
 
 ## Options
-- ### Options - Lets you choose between the five different options, theres also an image next to each text.
+- Options - Lets you choose between the five different options, theres also an image next to each text.
 
 ![Options](md-images/Options.png)
 
 ## Scoreboard
-- ### Scoreboard - Allows you to keep track of how many rounds you and the computer have each won.
+- Scoreboard - Allows you to keep track of how many rounds you and the computer have each won.
 
 ![Scoreboard](md-images/Scoreboard.png)
 
@@ -76,21 +76,21 @@
 - ## Validators
 
 - ### HTML
-  - ### No errors were found when passing through the official [W3C HTML validator.](https://validator.w3.org/)
+  - No errors were found when passing through the official [W3C HTML validator.](https://validator.w3.org/)
 
 - ### CSS
-  - ### No errors were found when passing through the official [W3C CSS validator.](https://jigsaw.w3.org/css-validator/#validate_by_uri)
+  - No errors were found when passing through the official [W3C CSS validator.](https://jigsaw.w3.org/css-validator/#validate_by_uri)
 
 - ### JavaScript
-  - ### No errors were found when passing the code through [Jshint.](https://jshint.com/)
+  - No errors were found when passing the code through [Jshint.](https://jshint.com/)
 
 <p>&nbsp;</p>
 
 - ## Accessibility
 
-  - ### I confirmed that the colours have enough contrast and fonts chosen are easy to read, and all links, icons and images have descriptive text for screen readers running it through Lighthouse in Chrome DevTools.
-  - ### Tested the website in Chrome and Samsung internet browser for both mobile and desktop.
-  - ### Tested and confirmed that the website is responsive on all screen sizes using dev tools.
+  - I confirmed that the colours have enough contrast and fonts chosen are easy to read, and all links, icons and images have descriptive text for screen readers running it through Lighthouse in Chrome DevTools.
+  - Tested the website in Chrome and Samsung internet browser for both mobile and desktop.
+  - Tested and confirmed that the website is responsive on all screen sizes using dev tools.
 
 ### Desktop
 
@@ -107,7 +107,7 @@
 
 - ## Solved
 
-  - ### When adapting the site for mobile i found it to be a better experience to remove to image completely.
+  - When adapting the site for mobile i found it to be a better experience to remove to image completely.
 
 - ## Unsolved
 
@@ -119,10 +119,10 @@
   # Deployment
 
   ## The site was deployed to GitHub Pages with the following steps:
-  - ## Click on the **Settings** tab in the Github repository for the project.
-  - ## Click on the **Pages** section of the menu on the left.
-  - ## Under **Source**, select **Branch:Main**, and click **Save**.
-  - ## The site should now be deployed succesfully and after a few minutes the link can be clicked and lead you to the website.
+  - Click on the **Settings** tab in the Github repository for the project.
+  - Click on the **Pages** section of the menu on the left.
+  - Under **Source**, select **Branch:Main**, and click **Save**.
+  - The site should now be deployed succesfully and after a few minutes the link can be clicked and lead you to the website.
 
 
 ## The live website can be found here: [Rock,Paper,Scissors,Lizard,Spock]( https://mattheuskasa.github.io/Rock-Paper-Scissors-Lizard-Spock//)
@@ -131,8 +131,8 @@
 
  # Credits
 
- - ## Support of documentation in [W3schools.](https://www.w3schools.com/)
- - ## Icons from [Font Awesome.](https://fontawesome.com/)
- - ## Images created and resized using [Microsoft Paint.](https://sv.wikipedia.org/wiki/Microsoft_Paint)
- - ## Images found at [Pexels](https://www.pexels.com/)
+ - Support of documentation in [W3schools.](https://www.w3schools.com/)
+ - Icons from [Font Awesome.](https://fontawesome.com/)
+ - Images created and resized using [Microsoft Paint.](https://sv.wikipedia.org/wiki/Microsoft_Paint)
+ - Images found at [Pexels](https://www.pexels.com/)
  [Back to top](#)
