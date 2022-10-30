@@ -2,6 +2,7 @@
 
 ### Rock Paper Scissors Lizard Spock. Is a website where you can play a lovely game of advanced rock, paper, scissors agains the computer, and hopefully win!
 
+
 ![Site on different screens](md-images/different-responses.png)
 
 
@@ -111,7 +112,7 @@
 
 - ## Unsolved
 
-  - Due to not having enough time, i wasnt able to improve the tablet view so that not as much of the screen is taken up by whitespace.
+  - No unsolved bugs
 
 [Back to top](#)
 <p>&nbsp;</p>
